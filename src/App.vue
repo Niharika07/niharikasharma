@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     
-      <b-navbar toggleable="lg" variant="light" type="light">
+      <b-navbar sticky toggleable="lg" variant="light" type="light">
         <b-navbar-brand href="#"
           ><img src="./assets/logo.png" width="50px" height="50px" alt="Kitten"
         /></b-navbar-brand>
@@ -40,10 +40,10 @@
     <div class="work">
       <br />
 
-       <b-container fluid id="projects">
+       <b-container id="projects">
         <b-row class="text-center d-inline-flex mb-5 mt-4">  
-          <b-col><AccessManagement></AccessManagement></b-col>
-          <b-col><AccessContract></AccessContract></b-col>
+          <b-col ><AccessManagement></AccessManagement></b-col>
+          <b-col ><AccessContract></AccessContract></b-col>
         </b-row>
           
      <b-row class="text-center d-inline-flex">

@@ -6,20 +6,14 @@
     img-alt="Image"
     img-top
     tag="article"
-    style="width: 30rem; height: 24rem; backgroundColor: #F7E06C; color:white; font-family: 'Montserrat-Regular'"
+    style="max-width: 30rem; height: 24rem; backgroundColor: #F7E06C; color:white; font-family: 'Montserrat-Regular'"
     class="mb-2 shadow border-0"
     footer-tag="footer"
     footer-bg-variant="light"
  
   >
-    <figure class="figure mt-3">
-        <img
-          src="../assets/AMS/AM.png"
-          class="figure-img img-fluid z-depth-1"
-          style="width: 320px; height: 200px"
-        />
-    </figure>
-
+   <b-img :src="require('../assets/AMS/AM.png')" class="mt-3" width="320px" height="200px"> </b-img>
+   
     <b-modal id="modal-xl" size="xl" v-model='show' >
         <h2 class="desc mt-3"><u class="under">Overview</u></h2>
         <p class="desc ml-5 mr-5" style="font-size:19px"> Access Management System is an application that manages the lifecycle of access tokens. 

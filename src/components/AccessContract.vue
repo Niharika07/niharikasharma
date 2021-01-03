@@ -11,15 +11,7 @@
      footer-tag="footer"
     footer-bg-variant="light"
   >
-
-   <figure class="figure mt-4">
-        <img
-          src="../assets/AC/AC.png"
-          class="figure-img img-fluid z-depth-1"
-          style="width: 200px; height: 190px"
-        />
-        
-      </figure>
+ <b-img :src="require('../assets/AC/AC.png')" class="mt-4" width="200px" height="190px"> </b-img>
 
     <b-modal id="modalAC" size="xl" v-model='showAC' >
  <h2 class="desc mt-3"><u class="under">About the Project</u></h2>
@@ -83,7 +75,7 @@
       </b-modal> 
       
 <template #footer >
-      <span class="text-muted" style="font-family:'Montserrat-Regular'; font-size:15px;"> Who can perform what actions on my products?  </span><br>
+      <span class="text-muted" style="font-family:'Montserrat-Regular'; font-size:15px;"> Who can perform what actions on my digital products?  </span><br>
         <small class="text-muted"> Design | Automation</small>
       </template>
   </b-card>

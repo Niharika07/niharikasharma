@@ -11,14 +11,7 @@
     footer-bg-variant="light"
     v-on:click="openDoc()"
   >
-    <figure class="figure mt-3">
-        <img
-          src="../assets/MS.png"
-          class="figure-img img-fluid z-depth-1"
-          style="width: 200px; height: 200px"
-        />
-        
-      </figure>
+   <b-img :src="require('../assets/MS.png')" class="mt-3" width="200px" height="200px"> </b-img>
       
 <template #footer >
       <span class="text-muted" style="font-family:'Montserrat-Regular'; font-size:15px;"> How to build a platform for community learning?  </span><br>

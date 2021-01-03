@@ -12,14 +12,7 @@
     footer-bg-variant="light"
     footer-class="abc"
   >
-    <figure class="figure mt-3">
-        <img
-          src="../assets/OSS/oss.png"
-          class="figure-img img-fluid z-depth-1"
-          style="width: 230px; height: 200px"
-        />
-        
-      </figure>
+   <b-img :src="require('../assets/OSS/oss.png')" class="mt-3" width="230px" height="200px"> </b-img>
 
 <b-modal id="modalOSS" size="xl" v-model='showOSS' >
 

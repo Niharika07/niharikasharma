@@ -63,7 +63,7 @@
  <template #modal-header>
      <div class="w-100">
           <span class="text-center" style="color:#00c2cb;font-family:'Montserrat-Regular'"> <h1> Lettering Designs </h1> </span>
-          <span class="text-center" style="font-family:'Montserrat-Regular'"><h6> <i>Expressing myself through my art!</i> </h6> </span>
+          <span class="text-center" style="font-family:'Montserrat-Regular'"><h6> <i>Expressing myself through art!</i> </h6> </span>
      </div>
  </template>
  </b-modal> 
