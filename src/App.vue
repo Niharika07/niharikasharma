@@ -25,8 +25,8 @@
         <b-col class="name mb-3"
           >Hi! Yes, you've reached Niharika!<br />
           <span class="desc">
-            A high-spirited and joyful <span style="color: #00c2cb">Frontend Developer </span>with a deep interest in
-            <span style="color: #00c2cb">UX</span> working with a
+            A high-spirited and joyful <span style="color: #00c2cb">Developer </span>with a deep interest in
+            <span style="color: #00c2cb">User Experience</span> working with a
             leading bank based out of
             <span style="color: #00c2cb">Netherlands</span>.</span>
         </b-col>
@@ -78,12 +78,12 @@
        
        </div>
         <div class="h2 mb-3">
-    <b-icon icon="linkedin" variant="dark"></b-icon>
-     <b-icon icon="facebook" variant="dark" class="ml-3 mr-3"></b-icon>
-    <b-icon icon="instagram" variant="dark"></b-icon>
+    <b-icon icon="linkedin" variant="dark" cursor="pointer" v-on:click="openPage('linkedin')"></b-icon>
+     <b-icon icon="facebook" variant="dark" cursor="pointer" class="ml-3 mr-3" v-on:click="openPage('facebook')"></b-icon>
+    <b-icon icon="instagram" variant="dark" cursor="pointer" v-on:click="openPage('instagram')"></b-icon>
   </div>
    <p style="font-size:15px;font-family:'Montserrat-Regular';">
-        <i> Designed and developed with <b-icon icon="heart-fill" variant="dark"></b-icon> and lots of it.</i>
+        <i> Designed and developed with <b-icon icon="heart-fill" variant="dark"></b-icon> and lots of it by Niharika.</i>
         </p>
   </div>
 </template>
@@ -101,7 +101,19 @@ import Photography from "./components/Photography.vue";
 import Designs from "./components/Designs.vue";
 export default {
   components: { AccessManagement, AccessContract, Mirus, OSS, Photography, Designs },
- 
+  methods: {
+    openPage(app) {
+      if(app=='linkedin'){
+        window.location.href = "https://www.linkedin.com/in/niharika-sharma-0b5822b6/";
+      }
+      else if(app=='facebook'){
+        window.location.href = "https://www.facebook.com/niharika.sharma.5095";
+      }
+      else{
+         window.location.href = "https://www.instagram.com/niharikasharma07/";
+      }
+    },
+  },
  
 };
 </script>
