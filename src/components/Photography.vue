@@ -17,10 +17,10 @@
    <b-container class="p-4 d-flex" style="justify-content:center">
   <b-row>
     <b-col>
-     <b-img rounded src="https://drive.google.com/uc?export=view&id=1uKInDFYG095rDRTAw08vRzkrTjZmOEy4" width="500px" height="350px"></b-img>
+     <b-img rounded :src="require('../assets/Photography/ImgOne.jpg')" width="500px" height="350px"></b-img>
     </b-col>
     <b-col>
-      <b-img rounded src="https://drive.google.com/uc?export=view&id=1vrVfdwAaczIawgy2tdGqX2GJGKHUDtve" width="500px" height="350px"></b-img>
+      <b-img rounded :src="require('../assets/Photography/ImgTwo.jpg')" width="500px" height="350px"></b-img>
     </b-col>
   </b-row>
  </b-container>
@@ -28,30 +28,30 @@
   <b-container class="p-4 d-flex" style="justify-content:center">
   <b-row>
     <b-col>
-     <b-img rounded src="https://drive.google.com/uc?export=view&id=1wKfAhytAC5_33TraUcrdNzugTe6CJN1k" width="500px" height="350px"></b-img>
+     <b-img rounded :src="require('../assets/Photography/ImgThree.jpg')" width="500px" height="350px"></b-img>
     </b-col>
     <b-col>
-      <b-img rounded src="https://drive.google.com/uc?export=view&id=1wN3TdO0zxRWdl1TYX8vj9xhNjlZwyjAI" width="500px" height="350px"></b-img>
+      <b-img rounded :src="require('../assets/Photography/ImgFour.jpg')" width="500px" height="350px"></b-img>
     </b-col>
   </b-row>
  </b-container>
 <b-container class="p-4 d-flex" style="justify-content:center">
   <b-row>
     <b-col>
-      <b-img rounded src="https://drive.google.com/uc?export=view&id=1vBsFhBksMwYDSowVqSUqVptb0CsXtGvN" width="400px" height="450px"></b-img>
+      <b-img rounded :src="require('../assets/Photography/ImgFive.jpg')" width="400px" height="450px"></b-img>
     </b-col>
     <b-col>
-       <b-img rounded src="https://drive.google.com/uc?export=view&id=1vYBU176PaROre_1wKmgmP4cZjxr7u7b1" width="400px" height="450px"></b-img>
+       <b-img rounded :src="require('../assets/Photography/ImgSix.jpg')" width="400px" height="450px"></b-img>
     </b-col>
   </b-row>
   </b-container>
   <b-container class="p-4 d-flex" style="justify-content:center">
   <b-row>
     <b-col>
-     <b-img rounded src="https://drive.google.com/uc?export=view&id=1ulwmhKscxcaCpAwoQAZERRXe7ybaWBlt" width="400px" height="400px"></b-img>
+     <b-img rounded :src="require('../assets/Photography/ImgSeven.jpg')" width="400px" height="400px"></b-img>
     </b-col>
     <b-col>
-      <b-img rounded src="https://drive.google.com/uc?export=view&id=1vW2PVya1Rn8kpvGAH52e-JTgazwq9C7f" width="400px" height="400px"></b-img>
+      <b-img rounded :src="require('../assets/Photography/ImgEight.jpg')" width="400px" height="400px"></b-img>
     </b-col>
   </b-row>
  </b-container>
@@ -59,10 +59,10 @@
   <b-container class="p-4 d-flex" style="justify-content:center">
   <b-row>
     <b-col>
-     <b-img rounded src="https://drive.google.com/uc?export=view&id=1v06SkKGP9QgyDaA6TBL4kBJipBDOCuNv" width="400px" height="450px"></b-img>
+     <b-img rounded :src="require('../assets/Photography/ImgNine.jpg')" width="400px" height="450px"></b-img>
     </b-col>
     <b-col>
-      <b-img rounded src="https://drive.google.com/uc?export=view&id=1uemxRnlh1udVd3vTq7Wwv2XCV2vspByR" width="400px" height="450px"></b-img>
+      <b-img rounded :src="require('../assets/Photography/ImgTen.jpg')" width="400px" height="450px"></b-img>
     </b-col>
   </b-row>
  </b-container>
@@ -70,10 +70,10 @@
  <b-container class="p-4 d-flex" style="justify-content:center">
   <b-row>
     <b-col>
-     <b-img rounded src="https://drive.google.com/uc?export=view&id=1u9uMceqtGMbCcE_nQ-lp6YlpVaPZvdu4" width="400px" height="450px"></b-img>
+     <b-img rounded :src="require('../assets/Photography/ImgThirteen.jpg')" width="400px" height="450px"></b-img>
     </b-col>
     <b-col>
-      <b-img rounded src="https://drive.google.com/uc?export=view&id=1vEsPYUCbHxI3aX8QoLvdT8Vs2m5iSH4W" width="400px" height="450px"></b-img>
+      <b-img rounded :src="require('../assets/Photography/ImgFourteen.jpg')" width="400px" height="450px"></b-img>
     </b-col>
   </b-row>
  </b-container>
@@ -81,10 +81,10 @@
  <b-container class="p-4 d-flex" style="justify-content:center">
   <b-row>
     <b-col>
-     <b-img rounded src="https://drive.google.com/uc?export=view&id=1uwX7jZ0QPFF8beFlGipA7nxH6-I1CVHK" width="400px" height="450px"></b-img>
+     <b-img rounded :src="require('../assets/Photography/ImgEleven.png')" width="400px" height="450px"></b-img>
     </b-col>
     <b-col>
-      <b-img rounded src="https://drive.google.com/uc?export=view&id=1usPdQH3JPeaeSWQkglPEIPd6pVencIun" width="400px" height="450px"></b-img>
+      <b-img rounded :src="require('../assets/Photography/ImgTwelve.jpg')" width="400px" height="450px"></b-img>
     </b-col>
   </b-row>
  </b-container>

@@ -16,28 +16,29 @@
     <b-modal id="modalAC" size="xl" v-model='showAC' >
  <h2 class="desc mt-3"><u class="under">About the Project</u></h2>
  <p class="desc ml-5 mr-5" style="font-size:19px">
-   As part of this project, I redesigned a critical Internet Banking application that was 20 years old.<br> Access Contract is an application
+   As part of this project, I redesigned a critical Internet Banking application that was developed 20 years back.<br> Access Contract contains data about agreements between a customer and the bank regarding digital banking, including the users who are authorised to act within digital banking on behalf of the customer, and about which actions they are authorised to perform. 
+   <br>Access Contract is an application
    through which a customer of the bank can:<br>
  
 
 <span class="ml-5" style="font-family:Voga-Medium; color:#F7E06C;font-size:50px">1.</span>
-<span class="ml-2" style="font-size:22px">Set authorization rules on products linked to her account.</span>
+<span class="ml-2" style="font-size:22px">Enroll products to her digital banking account.</span>
 <br>
   <b-img center :src="require('../assets/AC/products.png')" class="img-fluid" width="600px" height="500px"> </b-img>
 
 <span class="ml-5" style="font-family:Voga-Medium; color:#F7E06C;font-size:50px">2.</span>
-<span class="ml-2" style="font-size:22px">Define permissions/tasks that can be done on Internet Banking.</span>
+<span class="ml-2" style="font-size:22px">Set permissions or define tasks that can be performed on her linked products.</span>
 <br>
   <b-img center :src="require('../assets/AC/permissions.png')" class="img-fluid" width="600px" height="500px"> </b-img>
 
 <span class="ml-5" style="font-family:Voga-Medium; color:#F7E06C;font-size:50px">3.</span>
-<span class="ml-2" style="font-size:22px">Put finance/monetary restrictions.</span><br>
+<span class="ml-2" style="font-size:22px">Put finance/monetary restrictions on products.</span><br>
 <ul class="ml-5"><li class="ml-3"> Limit on a payment.</li><li class="ml-3">Co-sign a payment.</li></ul>
 
 <span class="ml-5" style="font-family:Voga-Medium; color:#F7E06C;font-size:50px">4.</span>
 <span class="ml-2" style="font-size:22px">List Userships.</span><br>
-<ul class="ml-5"><li class="ml-3"> Give a person access to products on your behalf.</li>
-<li class="ml-3">Define actions that she can perform.</li></ul>
+<ul class="ml-5"><li class="ml-3"> Authorize one or more users to her digital banking products.</li>
+<li class="ml-3">List all actions those users can perform.</li></ul>
 </p>
 <br>
  <h2 class="desc mt-3"><u class="under">Design Process</u></h2>
@@ -60,8 +61,21 @@
 <b-img center :src="require('../assets/AC/overviewScreens1.png')" class="img-fluid" width="700px" height="650px" style="position:relative"> </b-img>
 <b-img center :src="require('../assets/AC/overviewScreens2.png')" class="img-fluid" width="700px" height="650px" style="position:relative"> </b-img>
 <br><br>
+
 <span class="desc ml-5" style="font-size:19px">FAQ Screen</span>
 <b-img center :src="require('../assets/AC/faqScreen.png')" class="img-fluid" width="700px" height="650px" style="position:relative"> </b-img>
+<br>
+
+<h2 class="desc"><u class="under">Learnings</u></h2>
+<p class="desc ml-5 mr-5" style="font-size:19px">
+         This project became the stepping stone for me in the field of design. I learnt :<br>
+         <ul class="mt-1">
+           <li>the importance of reducing cognitive load which was very high in the legacy application.</li>
+           <li>the significance of receiving constant feedbacks from the user.</li>
+           <li>how to weigh priorities while making design decisions.</li>
+           <li>effective communication.</li>
+         </ul>
+         </p>
 
       <template v-slot:modal-footer>
         <b-button variant='warning' size='md' class='float-right' @click='showAC=false'>Close</b-button>

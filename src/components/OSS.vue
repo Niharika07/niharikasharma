@@ -101,6 +101,16 @@ The tool would consider maturity across all these areas and give a maturity scor
 <p class="desc ml-5 mr-5" style="font-size:19px">
 The team hopes that as more and more organizations perform an assessment, and as the system learns about different organizations, the open source community as a whole would benefit as it would find more mature organizations in the open source space. 
 </p>
+<h2 class="desc"><u class="under">Learnings</u></h2>
+<p class="desc ml-5 mr-5" style="font-size:19px">
+         It was a privilege to learn from Professor Tony Wasserman who is a member of the board of directors of the Open Source Initiative. Through this project I learnt :<br>
+         <ul class="mt-1">
+           <li>the impact of Open source on software industry.</li>
+           <li>the licensing and commercialization issues.</li>
+           <li>the corporate software evaluation techniques.</li>
+           <li>In general, regarding surveys, people don't like answering descriptive questions!</li>
+         </ul>
+         </p>
   <template v-slot:modal-footer>
         <b-button variant='warning' size='md' class='float-right' @click='showOSS=false'>Close</b-button>
       </template>
