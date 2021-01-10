@@ -149,17 +149,17 @@ export default {
 @font-face {
   font-family: "Montserrat-Light";
   src: local("Montserrat-Light"),
-    url(./fonts/Montserrat/Montserrat-Light.ttf) format("truetype");
+    url(./fonts/Montserrat-Light.ttf) format("truetype");
 }
 @font-face {
   font-family: "Montserrat-Regular";
   src: local("Montserrat-Regular"),
-    url(./fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+    url(./fonts/Montserrat-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "Oswald";
   src: local("Oswald"),
-    url(./fonts/Oswald/static/Oswald-Bold.ttf) format("truetype");
+    url(./fonts/Oswald-Bold.ttf) format("truetype");
 }
 @font-face {
   font-family: "Voga-Medium";
