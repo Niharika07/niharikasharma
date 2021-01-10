@@ -16,7 +16,7 @@
     <b-modal id="modalAC" size="xl" v-model='showAC' >
  <h2 class="desc mt-3"><u class="under">About the Project</u></h2>
  <p class="desc ml-5 mr-5" style="font-size:19px">
-   As part of this project, I redesigned a critical Internet Banking application that was developed 20 years back.<br> Access Contract contains data about agreements between a customer and the bank regarding digital banking, including the users who are authorised to act within digital banking on behalf of the customer, and about which actions they are authorised to perform. 
+   As part of this project, I redesigned a critical Internet Banking application that was developed 20 years ago.<br> Access Contract contains data about agreements between a customer and the bank regarding digital banking, including the users who are authorised to act within digital banking on behalf of the customer, and about which actions they are authorised to perform. 
    <br>Access Contract is an application
    through which a customer of the bank can:<br>
  
