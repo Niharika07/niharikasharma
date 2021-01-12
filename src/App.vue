@@ -147,7 +147,7 @@ export default {
   cursor: pointer;
 }
 
-@media screen and (max-width: 2000px) and (min-width: 600px) {
+@media screen and  (min-width: 600px) {
   #app #cardss {
  display: flex;
   justify-content: center;
