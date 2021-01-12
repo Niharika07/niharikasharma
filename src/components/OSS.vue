@@ -6,7 +6,7 @@
     img-alt="Image"
     img-top
     tag="article"
-    style="width: 30rem; height:24rem; backgroundColor: #F56476; color:white; font-family: 'Montserrat-Light'"
+    style="max-width: 30rem; height:24rem; backgroundColor: #F56476; color:white; font-family: 'Montserrat-Light'"
     class="mb-2 shadow border-0"
      footer-tag="footer"
     footer-bg-variant="light"
@@ -19,7 +19,7 @@
 <h2 class="desc mt-3"><u class="under">About the Project</u></h2>
 <p class="desc ml-5 mr-5" style="font-size:19px">
 The primary objective of this project was to learn about the <i>open source maturity</i> in organizations.<br>
-Open source maturity is to understand how to assess the extent to which a company:
+Open source maturity is to assess the extent to which a company:
 <oL>
   <li>Uses open source.</li> 
   <li>Contributes to existing projects.</li>
@@ -33,13 +33,17 @@ The team tried to explore and understand the factors that make open source proje
 
 <h2 class="desc mt-3"><u class="under">Process Overview</u></h2>
 <p class="desc ml-5 mr-5" style="font-size:19px">
-  Open source is fast becoming an excellent channel for building rapport in the technical community as well as for attracting talented individuals to interesting projects, however, not all open source programs can be considered as successful. The team therefore wanted to analyze and understand what makes the program successful in certain organizations, and what lessons can be learned from them,  so that more organizations can start adopting practices and methodologies that can lead them to have a mature open source program. 
+  Open source is fast becoming an excellent channel for building rapport in the technical community as well as for 
+  attracting talented individuals to interesting projects, however, not all open source programs can be considered
+  as successful. The team therefore wanted to analyze and understand what makes the program successful in certain 
+  organizations, and what lessons can be learned from them,  so that more organizations can start adopting practices 
+  and methodologies that can lead them to have a mature open source program. We followed the process outlined below:
 </p>
 
 <b-img center :src="require('../assets/OSS/process1.png')" class="img-fluid" width="750px"> </b-img>
 <h2 class="desc mt-3"><u class="under">Analysis</u></h2>
 <p class="desc ml-5 mr-5 mt-2" style="font-size:19px">
- The team first analyzed existing Open Source Maturity Models for organizations, such as the Qualipso Open Maturity Model (OMM) to understand what could be a good framework for organizations to assess their program’s maturity level. 
+ The team first analyzed existing Open Source Maturity Models for organizations, such as the Qualipso Open Maturity Model (OMM) and Open Business Readiness Rating (OpenBRR), to understand what could be a good framework for organizations to assess their program’s maturity level. 
  </p>
 
 <p class="desc ml-5 mr-5" style="font-size:19px">
@@ -83,7 +87,7 @@ Based on the responses, here is a percentage of participants for few listed acti
 
 <h2 class="desc mt-3"><u class="under">Conceptualize</u></h2>
 <p class="desc ml-5 mr-5" style="font-size:19px">
- Finally, the team put together the concept of a quick assessment framework to enable organizations to self-assess their open source maturity level in a standardized way and we call this “SATMOOSM - A Self-Assessment Tool for Measuring Organizational Open Source Maturity.”  
+ Finally, the team put together the concept of a quick assessment framework to enable organizations to self-assess their open source maturity level in a standardized way and we called it “SATMOOSM - A Self-Assessment Tool for Measuring Organizational Open Source Maturity.”  
 </p>
 <p class="desc ml-5 mr-5" style="font-size:19px">
 The tool would consider maturity across multiple organizational areas that are key to building and retaining a successful open source culture, and generate a maturity score based on the weightage associated with each area. 
@@ -91,10 +95,10 @@ In the true spirit of open source, it would allow organizations and open source 
 </p>
 <p class="desc ml-5 mr-5" style="font-size:19px">
 The first version that has been put together by the team considers weightages from different categories based on the relative importance and their associated perceptions towards an organization’s maturity as voted by individuals in the survey.<br>
-You can view them here.
 </p>
 
 <p class="desc ml-5 mr-5" style="font-size:19px">
+  You can view the multivariate weight table for questions <span class="workshop" style="color: #00c2cb;font-family: 'Montserrat-Regular';" v-on:click="openDoc()" target="_blank">here</span>.<br>
 The tool would consider maturity across all these areas and give a maturity score.
 <b-img center :src="require('../assets/OSS/assessment.png')" class="img-fluid mt-2" width="650px"> </b-img>
 </p>
@@ -136,6 +140,12 @@ export default {
     return {
       showOSS: false,
     };
+  },
+  methods: {
+    openDoc() {
+      window.open("https://docs.google.com/document/d/1VDDIgFO5spW06E5BBTdTfgsiYLlJOQzkmP1HmWBKGcM/edit?usp=sharing", "_blank");
+      
+    },
   },
 }
 </script>

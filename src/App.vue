@@ -26,7 +26,7 @@
           >Hi! Yes, you've reached Niharika!<br />
           <span class="desc">
             A high-spirited and joyful <span style="color: #00c2cb">Developer </span>with a deep interest in
-            <span style="color: #00c2cb">User Experience</span> working with a
+            <span style="color: #00c2cb">User Experience</span> working for  <span style="color: #00c2cb">Identity and Access management</span> applications with a
             leading bank based out of
             <span style="color: #00c2cb">Netherlands</span>.</span>
         </b-col>
@@ -37,32 +37,35 @@
     </b-container>
 
     <br /><br /><br />
+    
     <div class="work">
       <br />
 
-       <b-container id="projects">
-        <b-row class="text-center d-inline-flex mb-5 mt-4">  
-          <b-col ><AccessManagement></AccessManagement></b-col>
-          <b-col ><AccessContract></AccessContract></b-col>
-        </b-row>
-          
-     <b-row class="text-center d-inline-flex">
-        <b-col> <Mirus></Mirus></b-col>
-        <b-col> <OSS></OSS></b-col>
-       </b-row>
-     </b-container>
+       <div>
+         <h1 id="projects" style="color:#6c757d; font-family: 'Montserrat-Light'">PROJECTS</h1>
+    <b-card-group id="cardss">
+   <AccessManagement class="giveSpace"></AccessManagement>
+ <AccessContract class="giveSpace"></AccessContract>
+ </b-card-group><br>
+  <b-card-group id="cardss">
+ <Mirus class="giveSpace"></Mirus>
+  <OSS class="giveSpace"></OSS>
+    </b-card-group>
+  </div>
       <br /><br />
     </div>
     
     
     
-    <br id="fun"/><br />
-    <h1  style="font-family: 'Montserrat-Light'">FUN</h1>
-    <div class="mt-5 ml-4 cards">
-     <Photography></Photography>
-     <Designs></Designs>
-    </div>  
-       <div id="contact" class="work mb-4 mt-5" style="height:300px;backgroundColor:#212529" >
+    <br /><br />
+    <h1 id="fun" style="font-family: 'Montserrat-Light'">FUN</h1>
+     <b-card-group id="cardss">
+     <Photography class="giveSpace"></Photography>
+     <Designs class="giveSpace"></Designs>
+    </b-card-group> 
+
+
+       <div id="contact" class="work mb-4 mt-4" style="height:300px;backgroundColor:#212529" >
          <br><br><br>
          <p class="desc" style="font-size:25px; color:white;">
            WOULD YOU LIKE TO <span style="color:#F7E06C">CONNECT</span>?
@@ -139,13 +142,22 @@ export default {
   font-family: "Montserrat-Light";
   font-size: 25px;
 }
-.cards {
-  display: flex;
-  justify-content: center;
-}
+
 .workshop {
   cursor: pointer;
 }
+
+@media screen and (max-width: 2000px) and (min-width: 600px) {
+  #app #cardss {
+ display: flex;
+  justify-content: center;
+}
+ #app #cardss .giveSpace{
+   padding:20px;
+ }
+}
+
+
 @font-face {
   font-family: "Montserrat-Light";
   src: local("Montserrat-Light"),

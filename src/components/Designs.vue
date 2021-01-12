@@ -1,9 +1,9 @@
 <template>
   <div id="Designs">
       
-       <figure v-b-modal.modalDg class="figure ml-5"  @click='showDg=true'>
+       <figure v-b-modal.modalDg class="figure"  @click='showDg=true'>
         <img
-          src="https://drive.google.com/uc?export=view&id=1wF-8BpLiiivU7nck0wX_3s_MU9KVdXtf"
+          src="../assets/Designs/thankYou.jpg"
           class="figure-img img-fluid z-depth-1"
           style="width: 480px; height: 340px"
         />

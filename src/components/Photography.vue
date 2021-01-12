@@ -1,7 +1,7 @@
 <template>
   <div id="Photography">
       
-      <figure v-b-modal.modalPh class="figure mr-5"  @click='showPh=true'>
+      <figure v-b-modal.modalPh class="figure"  @click='showPh=true'>
         <img
           src="../assets/amsterdam.jpg"
           class="figure-img img-fluid z-depth-1"
