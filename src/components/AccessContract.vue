@@ -96,7 +96,7 @@ Access Contract is a critical internet banking application that contains agreeme
 
 <h2 class="desc"><u class="under">Learnings</u></h2>
 <p class="desc ml-5 mr-5" style="font-size:19px">
-         This project became the stepping stone for me in the field of design. I learnt :<br>
+         This project became the stepping stone for me in the field of design and I became proficient at automating a software delivery process. I learnt:<br>
          <ul class="mt-1">
            <li>the importance of reducing cognitive load which was very high in the legacy application.</li>
            <li>the significance of receiving constant feedbacks from the user.</li>

@@ -18,6 +18,7 @@
 
 <h2 class="desc mt-3"><u class="under">About the Project</u></h2>
 <p class="desc ml-5 mr-5" style="font-size:19px">
+This project was part of <i>'Open Source Software'</i>, a summer course I completed from Integrated Innovation Institute at Carnegie Mellon University.<br>
 The primary objective of this project was to learn about the <i>open source maturity</i> in organizations.<br>
 Open source maturity is to assess the extent to which a company:
 <oL>
