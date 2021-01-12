@@ -117,7 +117,7 @@ Access Contract is a critical internet banking application that contains agreeme
       </b-modal> 
       
 <template #footer >
-      <span class="text-muted" style="font-family:'Montserrat-Regular'; font-size:15px;"> Who can perform what actions on my digital products?  </span><br>
+      <span class="text-muted p-2" style="font-family:'Montserrat-Regular'; font-size:15px;"> Who can perform what actions on my digital products?  </span><br>
         <small class="text-muted"> Design | Automation</small>
       </template>
   </b-card>

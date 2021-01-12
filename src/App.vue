@@ -107,13 +107,13 @@ export default {
   methods: {
     openPage(app) {
       if(app=='linkedin'){
-        window.location.href = "https://www.linkedin.com/in/niharika-sharma-0b5822b6/";
+         window.open("https://www.linkedin.com/in/niharika-sharma-0b5822b6/", "_blank");
       }
       else if(app=='facebook'){
-        window.location.href = "https://www.facebook.com/niharika.sharma.5095";
+        window.open("https://www.facebook.com/niharika.sharma.5095", "_blank");
       }
       else{
-         window.location.href = "https://www.instagram.com/niharikasharma07/";
+        window.open("https://www.instagram.com/niharikasharma07/", "_blank");
       }
     },
   },
