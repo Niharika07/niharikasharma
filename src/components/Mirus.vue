@@ -14,7 +14,7 @@
    <b-img :src="require('../assets/MS.png')" class="mt-3" width="200px" height="200px"> </b-img>
       
 <template #footer>
-      <span class="text-muted" style="font-family:'Montserrat-Regular'; font-size:14px;"> How to build and manage a platform for community learning?  </span><br>
+      <span class="text-muted" style="font-family:'Montserrat-Regular'; font-size:14px;"> How to build and curate a platform for community learning?  </span><br>
         <small class="text-muted"> Project Management</small>
       </template>
   </b-card>
